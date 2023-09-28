@@ -29,6 +29,7 @@ public class TestRunner {
 	    driver.get("http://demowebshop.tricentis.com/login");
 		
 	    driver.manage().window().maximize();   
+		
 	}
 	@When("^enter usename and password$")
 	public void enter_usename_and_password() throws Throwable {
