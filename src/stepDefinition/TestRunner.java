@@ -42,6 +42,7 @@ public class TestRunner {
 	}
 
 	@Then("^User should be able to login$")
+	
 	public void user_should_be_able_to_login() throws Throwable {
 	driver.findElement(By.xpath("//input[@class='button-1 login-button']")).click();  
 	}
