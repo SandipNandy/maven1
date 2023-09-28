@@ -34,6 +34,7 @@ public class TestRunner {
 	@When("^enter usename and password$")
 	
 	public void enter_usename_and_password() throws Throwable {
+		
 		driver.findElement(By.id("Email")).sendKeys("kumar62922@gmail.com");
 	     driver.findElement(By.name("Password")).sendKeys("Dks@7139");	
 	    
