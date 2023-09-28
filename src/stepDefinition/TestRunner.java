@@ -13,6 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class TestRunner {
+	
 	WebDriver driver;
 	@Given("^open chrome and start application$")
 	public void open_chrome_and_start_application() throws Throwable {
