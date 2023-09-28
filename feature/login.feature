@@ -1,5 +1,6 @@
 Feature: Test login functionality of demowebshop
 Feature: Test login functionality of demowebshop
+
  @validlogin
   Scenario: Test demowebshop with valid credentials
     Given open chrome and start application
