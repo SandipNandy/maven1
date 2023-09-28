@@ -45,7 +45,8 @@ public class TestRunner {
 	
 	public void user_should_be_able_to_login() throws Throwable {
 		
-	driver.findElement(By.xpath("//input[@class='button-1 login-button']")).click();  
+	driver.findElement(By.xpath("//input[@class='button-1 login-button']")).click(); 
+		
 	}
 	@Given("^open chrome and start the chrome browser$")
 	public void open_chrome_and_start_the_chrome_browser() throws Throwable {
