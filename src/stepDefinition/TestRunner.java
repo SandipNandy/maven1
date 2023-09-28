@@ -19,6 +19,7 @@ public class TestRunner {
 	@Given("^open chrome and start application$")
 	
 	public void open_chrome_and_start_application() throws Throwable {
+		
 		System.setProperty("webdriver.chrome.driver","D:\\Softwares Required For Testing Batch\\seleniumGH20software\\chromedriver_win32 (1)\\chromedriver.exe");
 	    driver= new ChromeDriver();
 		//driver= new ChromeDriver();
