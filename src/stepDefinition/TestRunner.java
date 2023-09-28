@@ -25,6 +25,7 @@ public class TestRunner {
 		driver= new ChromeDriver();
 		
 		//driver= new ChromeDriver();
+		
 	    driver.get("http://demowebshop.tricentis.com/login");
 	    driver.manage().window().maximize();   
 	}
